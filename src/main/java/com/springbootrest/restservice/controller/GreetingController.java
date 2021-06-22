@@ -28,7 +28,7 @@ public class GreetingController {
 //    }
 
     @GetMapping("products")
-    public <Product> products() {
+    public List<Product> products() {
         return repository.findAll();
     }
 
