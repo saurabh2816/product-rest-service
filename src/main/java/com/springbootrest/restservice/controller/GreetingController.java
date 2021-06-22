@@ -32,9 +32,10 @@ public class GreetingController {
         return repository.findAll();
     }
 
-    @GetMapping("products/{id}")
+    @GetMapping("product/{id}")
     public Optional<Product> productById(@PathVariable("id") String id) {
         return repository.findById(Long.valueOf(id));
     }
+
 
 }
