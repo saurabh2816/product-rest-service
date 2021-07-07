@@ -37,5 +37,9 @@ public class GreetingController {
         return repository.findById(Long.valueOf(id));
     }
 
+    @GetMapping("test")
+    public String test() {
+        return "This is a test";
+    }
 
 }
