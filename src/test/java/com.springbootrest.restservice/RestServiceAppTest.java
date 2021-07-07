@@ -1,4 +1,4 @@
-package com.springbootrest.restservice;
+package java.com.springbootrest.restservice;
 
 import com.springbootrest.restservice.entity.Product;
 import com.springbootrest.restservice.repository.ProductRepository;
